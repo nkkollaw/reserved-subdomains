@@ -9,6 +9,7 @@
 			"email": "me@nbrogi.com"
 		}
 	],
+	"homepage": "https://github.com/nkkollaw/reserved-subdomains",
 	"autoload": {
 		"psr-4": {
 			"" : "php/src/"
