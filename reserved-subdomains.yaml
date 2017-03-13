@@ -91,7 +91,7 @@
 - dbadmin
 - dc
 - "/dc[0-9]+/"
-- de # i18n
+- de
 - demo
 - design
 - dev
@@ -119,10 +119,10 @@
 - email
 - embed
 - embedded
-- en # i18n
-- eng # i18n
-- english # i18n
-- es # i18n
+- en
+- eng
+- english
+- es
 - event
 - events
 - example
@@ -148,7 +148,7 @@
 - forum
 - forums
 - foto
-- fr # i18n
+- fr
 - free
 - friend
 - friends
@@ -480,7 +480,7 @@
 - ww3
 - www
 - www2
-- "/ww[a-z0-9-]+/" # anything that looks like "/www"/ might be used for spoofing
+- "/ww[a-z0-9-]+/" # anything that looks like "www" might be used for spoofing
 - xml
 - xmpp
 - yaml
