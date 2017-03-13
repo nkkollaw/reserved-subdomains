@@ -20,6 +20,8 @@ Usage:
 
 Pull requests are welcome.
 
+It would  be nice to implement a validator in different languages (Node, Ruby? PHP is in /php)
+
 The following \*nix commands might be useful while editing the list:
 
     cat reserved-subdomains.yaml | sort # sort entries
