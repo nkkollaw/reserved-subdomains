@@ -17,6 +17,10 @@ Subdomain validator for multitenant apps written in PHP. Simply checks if a subd
     
 #### Usage
 
+    Bool \nkkollaw\Multitenancy\Validators\Subdomain::isReserved($subdomain[, $yaml_file]);
+
+Example:
+
     $subdomain = 'www2';
     if (\nkkollaw\Multitenancy\Validators\Subdomain::isReserved($subdomain)) {
         throw new Exception('Sorry, subdomain is reserved');
