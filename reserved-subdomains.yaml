@@ -1,4 +1,4 @@
---- # Reserved subdomains 
+--- # Reserved subdomains
 - about
 - abuse
 - account
@@ -11,6 +11,7 @@
 - assets
 - atom
 - b
+- bbs # means forum
 - blog
 - board
 - bookmark
@@ -21,7 +22,9 @@
 - bugs
 - cal
 - calendar
+- cdn
 - chat
+- cloud
 - code
 - comment
 - comments
@@ -38,6 +41,7 @@
 - dashboard
 - data
 - de
+- dev
 - developer
 - developers
 - diversity
@@ -49,7 +53,9 @@
 - email
 - embed
 - embedded
+- en
 - example
+- exchange
 - explore
 - faq
 - faqs
@@ -68,11 +74,13 @@
 - general
 - gift
 - git
+- gov
 - guide
 - guides
 - hack
 - help
 - home
+- host
 - hostmaster
 - html
 - icon
@@ -93,6 +101,7 @@
 - legal
 - m
 - mail
+- mail2
 - manage
 - map
 - maps
@@ -107,7 +116,12 @@
 - mx3
 - mx4
 - news
+- ns1
+- ns2
+- ns3
+- ns4
 - official
+- owa # Outlook
 - pages
 - paid
 - pay
@@ -119,6 +133,7 @@
 - portal
 - pop
 - pop3
+- portal
 - post
 - postmaster
 - press
@@ -133,12 +148,16 @@
 - proxy
 - purge
 - root
+- remote
 - rss
 - s
 - school
 - schools
 - search
+- secure
+- server
 - setting
+- sftp
 - shop
 - sitemap
 - sites
@@ -163,6 +182,7 @@
 - team
 - teams
 - termsofservice
+- test
 - ticket
 - tickets
 - tool
@@ -179,8 +199,12 @@
 - usersnames
 - volunteer
 - volunteers
+- vpn
 - webmaster
 - wiki
+- web
+- webmail
+- ww1
 - www
 - "www-[a-z0-9]+"
 - "www[0-9]+"
