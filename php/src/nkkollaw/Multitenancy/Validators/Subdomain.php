@@ -3,9 +3,9 @@ namespace nkkollaw\Multitenancy\Validators;
 class Subdomain
 {
 
-    public static function readYAML($path)
+    public static function readYAML($yaml_file)
 	{
-        $yaml = file_get_contents($path);
+        $yaml = file_get_contents($yaml_file);
         if (!$yaml) {
             throw new \Exception('unable to find YAML file');
         }
@@ -23,9 +23,9 @@ class Subdomain
         return strpos($str, '/') !== false;
     }
 
-    public static function isReserved($subdomain, $path = __DIR__ . '/../../../../../reserved-subdomains.yaml')
+    public static function isReserved($subdomain, $yaml_file = __DIR__ . '/../../../../../reserved-subdomains.yaml')
     {
-        $reserved_subdomains = self::readYAML($path);
+        $reserved_subdomains = self::readYAML($yaml_file);
 
         $is_reserved = false;
         foreach ($reserved_subdomains as $reserved_subdomain) {
