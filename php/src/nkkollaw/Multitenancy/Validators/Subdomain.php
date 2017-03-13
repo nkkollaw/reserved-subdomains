@@ -4,7 +4,7 @@ namespace nkkollaw\Multitenancy\Validators;
 class Subdomain
 {
     public static function isReserved($subdomain) {
-        $yaml = file_get_contents(__DIR__ . '/../reserved-subdomains.yaml');
+        $yaml = file_get_contents(__DIR__ . '/../../../../../reserved-subdomains.yaml');
         if (!$yaml) {
             throw new \Exception('unable to find YAML with subdomains');
         }
