@@ -5,6 +5,8 @@ List of subdomains that could be candidates for reservation in multitenant app/ 
 
 This is a simple list of subdomains in YAML (I picked YAML over JSON because you can easily add comments).
 
+Subdomains are added as a simple list (ex. `www`, `smtp`, etc.). Regular expressions are supported but MUST be quoted and delimited by slashes (ex. `"/www[0-9]+/"`).
+
 ## Validators
 
 ### PHP implementation
