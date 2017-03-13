@@ -1,11 +1,26 @@
 # Subdomains
-List of subdomains that could be candidates for reservation in a multitenant app.
+List of subdomains that could be candidates for reservation in multitenant app/ subdomain validator for multitenant apps
+
+## YAML list
+
+This is a simple list of subdomains in YAML (I picked YAML over JSON because you can easily add comments).
+
+## PHP implementation
+
+Subdomain validator for multitenant apps written in PHP. Simply checks if a subdomain is in the list.
+
+Usage:
+
+    $subdomain = 'www2';
+    if (\nkkollaw\Multitenancy\Validators\Subdomain::isReserved($subdomain)) {
+        throw new Exception('Sorry, subdomain is reserved');
+    }
 
 ## Contributing
 
 Pull requests are welcome.
 
-The following \*nix commands might be useful while editing:
+The following \*nix commands might be useful while editing the list:
 
     cat reserved-subdomains.yaml | sort # sort entries
     
