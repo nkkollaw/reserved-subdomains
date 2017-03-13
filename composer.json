@@ -1,6 +1,6 @@
 {
 	"name": "nkkollaw/reserved-subdomains",
-	"description": "Validator for subdomains in multitenant apps",
+	"description": "Subdomain validator for multitenant apps",
 	"version": "0.1.0",
 	"license": "MIT",
 	"authors": [
