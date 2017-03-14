@@ -4,18 +4,18 @@ class Subdomain
 {
 
     public static function readYAML($yaml_file)
-	{
+    {
         $yaml = file_get_contents($yaml_file);
         if (!$yaml) {
             throw new \Exception('unable to find YAML file');
         }
 
         $reserved_subdomains = \Symfony\Component\Yaml\Yaml::parse($yaml);
-		if (!$reserved_subdomains) {
-			throw new \Exception('unable to parse YAML');
-		}
+        if (!$reserved_subdomains) {
+            throw new \Exception('unable to parse YAML');
+        }
 
-		return $reserved_subdomains;
+        return $reserved_subdomains;
     }
 
     public static function isRegex($str)
