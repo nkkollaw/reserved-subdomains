@@ -94,6 +94,8 @@
 - de
 - demo
 - design
+- deploy
+- deployment
 - dev
 - "/dev[0-9]+/"
 - devel
