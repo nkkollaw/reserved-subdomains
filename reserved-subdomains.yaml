@@ -78,6 +78,7 @@
 - corp
 - cp
 - cpanel
+- create
 - crm
 - css
 - cssproxy
@@ -92,13 +93,14 @@
 - dc
 - "/dc[0-9]+/"
 - de
+- delete
 - demo
 - design
-- deploy
-- deployment
+- destroy
 - dev
 - "/dev[0-9]+/"
 - devel
+- develop
 - developer
 - developers
 - development
@@ -117,6 +119,7 @@
 - drupal
 - e
 - e-mail
+- edit
 - edu
 - email
 - embed
@@ -165,6 +168,7 @@
 - gate
 - gateway
 - general
+- get
 - gift
 - gis
 - git
@@ -330,6 +334,7 @@
 - pt
 - public
 - purge
+- put
 - qa
 - redirect
 - register
@@ -362,6 +367,7 @@
 - sharepoint
 - shop
 - shopping
+- show
 - sip
 - site
 - sitebuilder
